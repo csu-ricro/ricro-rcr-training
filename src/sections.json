@@ -1,0 +1,71 @@
+[{
+  "title": "Introduction",
+  "link": "",
+  "answers": ["e"],
+  "description": null
+}, {
+  "title": "Ethics and Social Responsibility",
+  "link": "ethics-and-social-responsibility",
+  "answers": ["d"],
+  "description": "Ethics refers to standards of behavior that tell us how human beings ought to act in the many situations in which they find themselves – as citizens, teachers, professionals, researchers, friends, and so on, in order to be socially responsible. These standards are explained by ethical theories. Daily, each of us is faced with situations that require us to make a decision, and determine what the ethical course of action entails. This module will walk you through common principles of social responsibility and research ethics, as well as outline a framework for making an ethical decision."
+}, {
+  "title": "Data Acquisition and Management",
+  "link": "data-acquisition-and-management",
+  "answers": ["b"],
+  "description": "Whether working in a chemistry lab or writing a short story for a creative writing class, we all acquire and accumulate data while conducting our work at CSU. Both sponsors and institutions require that this data be stored and managed appropriately. It is important that faculty, researchers, and students understand the laws and policies affecting data, recognize their responsibilities in managing this data, and know how to access university policy and guidelines related to these issues."
+}, {
+  "title": "Research Misconduct",
+  "link": "research-misconduct",
+  "answers": ["b", "e"],
+  "description": "At Colorado State University we promote the highest level of integrity in all research teaching and service activities. We understand the importance of protecting the integrity of academic work and the need for stewardship of public and private funds. All faculty, staff and students are charged with conducting themselves with integrity and honesty. It is devastating to both individuals and institutions to be charged with research misconduct, so it is important to understand the processes that should be used to resolve professional problems before they lead to allegations of misconduct, and to know who to contact should you suspect or witness misconduct."
+}, {
+  "title": "Publication Practices and Responsible Authorship",
+  "link": "publication-practices-and-responsible-authorship",
+  "answers": ["b"],
+  "description": null
+}, {
+  "title": "Collaborative Science",
+  "link": "collaborative-science",
+  "answers": ["b"],
+  "description": "Collaborative research occurs when two or more researchers work together on a project. Collaboration is enhanced at CSU by its multicultural, global campus. With approximately 1,200 foreign students and scholars from over 90 different countries, their various backgrounds, cultures, and ideas enable CSU to be one of the nation’s leading research universities."
+}, {
+  "title": "Animal Safety",
+  "link": "animal-safety",
+  "answers": ["c"],
+  "description": "When conducting research at CSU, it is important to protect yourself, as well as other individuals and animals that may be used for a research study. This module focuses on the ethics of animal welfare as a component of responsible conduct of research. Since most institutions mandate training for those working with animals, this module will introduce you to the institutional and investigator responsibilities when working with animals, as well as the resources and committees available to you at CSU in order to ensure compliance and safety with your research."
+}, {
+  "title": "Human Safety",
+  "link": "human-safety",
+  "answers": ["c"],
+  "description": "When conducting research at CSU, it is important to protect yourself, as well as other individuals that may be used for a research study. This module focuses on the ethics of human welfare as a component of responsible conduct of research. Since most institutions mandate training for those working with humans, this module will introduce you to the institutional and investigator responsibilities when working with humans, as well as the resources and committees available to you at CSU in order to ensure compliance and safety with your research."
+}, {
+  "title": "Laboratory Safety",
+  "link": "laboratory-safety",
+  "answers": [],
+  "description": "When conducting research at CSU, it is important to protect yourself, as well as other individuals and animals that may be used for a research study. This module will introduce you to the importance of laboratory safety in order to protect yourself while conducting research."
+}, {
+  "title": "Conflict of Interest",
+  "link": "conflict-of-interest",
+  "answers": ["a", "a", "b"],
+  "description": null
+}, {
+  "title": "Mentor and Trainee Responsibilities",
+  "link": "mentor-and-trainee-responsibilities",
+  "answers": ["b"],
+  "description": "This module will guide you through mentor and trainee responsibilities in relation to sponsored programs. Both mentors and trainees must uphold high standards of research conduct and this module will explain: their unique roles and responsibilities, challenges they face, best practices for mentors and mentees and suggested guidelines."
+}, {
+  "title": "Fiscal Responsibility",
+  "link": "fiscal-responsibility",
+  "answers": ["e"],
+  "description": "As research volume and complexity are increasing, and federal guidelines are getting more rigorous, the risks of non-compliance at universities are high. A large portion of Colorado State University’s revenue comes from Sponsored Programs so it is important that these funds are used compliantly across the university in order to stay in good standing with the sponsors. This section will provide you the tools to understand your role and responsibility in maintaining strong relationships with the external sponsors."
+}, {
+  "title": "Conclusion",
+  "link": "conclusion",
+  "answers": [],
+  "description": null
+}, {
+  "title": "Review and Resources",
+  "link": "review-and-resources",
+  "answers": [],
+  "description": null
+}]
