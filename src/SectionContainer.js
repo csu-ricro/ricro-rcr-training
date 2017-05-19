@@ -9,6 +9,7 @@ import FlatButton from 'material-ui/FlatButton';
 import config from './config.json';
 
 const SecContainer = (props) => {
+  window.scrollTo(0, 0);
   const nextLinkOffset = props.sectionTrio.before == null ? 'col-md-offset-6 col-md-6' : 'col-md-6';
   const nextLink = props.sectionTrio.next == null ? null : (
     <Link className={nextLinkOffset} to={config.appRoot+props.sectionTrio.next.link}>
