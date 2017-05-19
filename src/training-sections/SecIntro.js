@@ -65,30 +65,26 @@ class Sec extends Component {
           <CardText>
             <div className='row'>
               <div className='col-md-3'>
-                <div className='text-box'>
                   <h4>2008</h4>
+                  <Divider/>
                   <p>In 2008 the National Science Foundation (NSF) proposed to implement the America COMPETES Act (Creating Opportunities to Meaningfully Promote Excellence in Technology, Education, and Science Act) requirement for training and oversight in RCR.</p>
-                </div>
               </div>
               <div className='col-md-3'>
-                <div className='text-box'>
                   <h4>2009</h4>
+                  <Divider/>
                   <p>In 2009 the National Institutes of Health started requiring RCR training for all trainees receiving NIH support through Institutional Research Training Grants, Individual Fellowships, Career Development Awards, and other grant programs with a training component.</p>
-                </div>
               </div>
               <div className='col-md-3'>
-                <div className='text-box'>
                   <h4>2010</h4>
+                  <Divider/>
                   <p>2010 policies from NSF further require Postdoctoral Researchers, Graduate and Undergraduate Students paid from NSF funds to receive RCR training, and require that CSU certify that we have a training program in place when submitting both new and continuing, institutional and individual applications.</p>
                   <p>CSU’s plan may be found on the <a href='https://vpr.colostate.edu/ricro/rcr/csus-rcr-training-policy-overview/'>Responsible Conduct of Research website</a>.</p>
-                </div>
               </div>
               <div className='col-md-3'>
-                <div className='text-box'>
                   <h4>2013</h4>
+                  <Divider/>
                   <p>2013 policies from USDA-NIFA require program directors, faculty, postdoctoral researchers, graduate and undergraduate students paid from USDA-NIFA funds to receive RCR training, and documentation of the training	are subject to NIFA review upon request.</p>
                   <p>CSU’s plan may be found on the <a href='https://vpr.colostate.edu/ricro/rcr/csus-rcr-training-policy-overview/'>Responsible Conduct of Research website</a>.</p>
-                </div>
               </div>
             </div>
           </CardText>
