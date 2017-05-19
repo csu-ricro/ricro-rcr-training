@@ -2,10 +2,6 @@ import React, {
   Component
 } from 'react';
 import {
-  RadioButton,
-  RadioButtonGroup
-} from 'material-ui/RadioButton';
-import {
   Card,
   CardTitle,
   CardText
@@ -13,8 +9,7 @@ import {
 import Divider from 'material-ui/Divider';
 
 import {
-  getSectionTrio,
-  getAnswer
+  getSectionTrio
 } from '../Utils';
 import SectionContainer from '../SectionContainer';
 
@@ -176,16 +171,16 @@ export default class Sec extends Component {
           <CardText>
             <ul>
               <li>Federal oversight by the NIH "Office of Biotechnology Activities" (OBA) can include site inspections, sanctions and recommendations</li>
-              <li>Regulatory instructions provided in the NIH "Guidelines", and are outlined in CSU <a href='https://vprnet.research.colostate.edu/RICRO/ibc/ibc-training-and-tutorials/'>online IBC training for PIs</a></li>
-              <li>Before initiating work, <a href='https://vprnet.research.colostate.edu/RICRO/ibc/ibc-forms'>approval by the IBC</a> is necessary</li>
-              <li>The approval process begins with the online <a href='https://vprnet.research.colostate.edu/RICRO/ibc/'>IBC website</a></li>
+              <li>Regulatory instructions provided in the NIH "Guidelines", and are outlined in CSU <a href='https://vpr.research.colostate.edu/RICRO/ibc/ibc-training-and-tutorials/'>online IBC training for PIs</a></li>
+              <li>Before initiating work, <a href='https://vpr.research.colostate.edu/RICRO/ibc/ibc-forms'>approval by the IBC</a> is necessary</li>
+              <li>The approval process begins with the online <a href='https://vpr.research.colostate.edu/RICRO/ibc/'>IBC website</a></li>
               <li>Faculty scientific and bioethical peer review of biologics
                 <ul>
-                  <li><a href='https://vprnet.research.colostate.edu/RICRO/ibc/ibc-forms/'>AARF: Agent Approval Review Form</a></li>
-                  <li><a href='https://vprnet.research.colostate.edu/RICRO/ibc/ibc-forms/'>PARF: Project Approval Review Form</a></li>
+                  <li><a href='https://vpr.research.colostate.edu/RICRO/ibc/ibc-forms/'>AARF: Agent Approval Review Form</a></li>
+                  <li><a href='https://vpr.research.colostate.edu/RICRO/ibc/ibc-forms/'>PARF: Project Approval Review Form</a></li>
                 </ul>
               </li>
-              <li>During work, oversight and inspections are provided by "<a href='https://vprnet.research.colostate.edu/bso/'>Biosafety Officers</a>" (BSOs) that provide training and site inspections</li>
+              <li>During work, oversight and inspections are provided by "<a href='https://vpr.research.colostate.edu/bso/'>Biosafety Officers</a>" (BSOs) that provide training and site inspections</li>
             </ul>
           </CardText>
         </Card>

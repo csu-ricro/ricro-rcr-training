@@ -246,9 +246,9 @@ export default class Sec extends Component {
               <li>... a common trend is poor communication between the investigator, his/her team, and the Institutional Review Board (IRB)</li>
               <li><strong>You</strong> can play an important role in strengthening the communication between the researchers and the IRB</li>
             </ul>
-            <p>If your project is "research" and research with a "human subject", you will need to work with the <a href='https://vprnet.research.colostate.edu/RICRO/irb/'>CSU IRB</a>:</p>
+            <p>If your project is "research" and research with a "human subject", you will need to work with the <a href='https://vpr.research.colostate.edu/RICRO/irb/'>CSU IRB</a>:</p>
             <ul>
-              <li>Prior to submitting a protocol, you will need formal <a href='https://vprnet.research.colostate.edu/RICRO/irb/researcher-training/'>IRB training</a></li>
+              <li>Prior to submitting a protocol, you will need formal <a href='https://vpr.research.colostate.edu/RICRO/irb/researcher-training/'>IRB training</a></li>
               <li>Like the IACUC, IRB protocols are submitted and reviewed online, using <a href='https://csu.keyusa.net/'>eProtocol</a></li>
               <li>IRB protocols that are greater than minimal risk are reviewed at the monthly IRB meeting
                 <ul>
