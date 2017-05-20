@@ -45,7 +45,7 @@ class Sec extends Component {
               <div className='col-md-6'>
                 <h4>Problems or Questions about the Modules</h4>
                 <Divider/>
-                <p>If you are having issues with these Modules, notice an error or typo, or have any question related to the material, please don't hesitate to <a href={config.contactUnit}>contact us</a>.</p>
+                <p>If you are having issues with these Modules, notice an error or typo, or have any question related to the material, please don't hesitate to <a href={config.unitContact}>contact us</a>.</p>
               </div>
             </div>
           </CardText>

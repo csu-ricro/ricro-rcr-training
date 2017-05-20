@@ -1,6 +1,7 @@
 import React, {
   Component
 } from 'react';
+import $ from 'jquery';
 import {
   Link
 } from 'react-router-dom'
@@ -12,10 +13,13 @@ import FontIcon from 'material-ui/FontIcon';
 import {
   Toolbar,
   ToolbarTitle,
-  ToolbarGroup
+  ToolbarGroup,
+  ToolbarSeparator
 } from 'material-ui/Toolbar';
 
-import CsuSvgLogo, {CsuFooter} from './CsuBranding';
+import CsuSvgLogo, {
+  CsuFooter
+} from './CsuBranding';
 
 import config from './config.json';
 import sections from './sections.json';
@@ -57,6 +61,17 @@ class App extends Component {
       }
     };
   }
+  componentDidMount() {
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 1) {
+        $('#logobar').addClass('display-none');
+        $('#top-toolbar').addClass('sticky');
+      } else {
+        $('#logobar').removeClass('display-none');
+        $('#top-toolbar').removeClass('sticky');
+      }
+    });
+  }
   render() {
     let drawerWidth = window.innerWidth > 992 ? 25 : 100;
     if (drawerWidth !== 100 && drawerWidth / 100 * window.innerWidth < 425) {
@@ -67,8 +82,9 @@ class App extends Component {
     return (
       <div>
         <AppBar
+          id='logobar'
           iconElementLeft={<CsuSvgLogo />} />
-        <Toolbar>
+        <Toolbar id='top-toolbar'>
           <ToolbarGroup firstChild={true}>
             <IconButton
               onTouchTap={this.handleToggleNav}
@@ -79,15 +95,21 @@ class App extends Component {
             <ToolbarTitle text={config.appName} />
           </ToolbarGroup>
           <ToolbarGroup>
-            <IconButton
-              href='/'
-              tooltip='Home'
-              tooltipPosition='bottom-left'>
-              <FontIcon className='material-icons'>home</FontIcon>
-            </IconButton>
+             <IconButton
+                href='/'
+                tooltip='Home'>
+                <FontIcon className='material-icons'>home</FontIcon>
+             </IconButton>
+             <ToolbarSeparator style={{marginLeft:0}} />
+             <IconButton
+                href={config.unitContact}
+                tooltip='Contact Us'
+                tooltipPosition='bottom-left'>
+                <FontIcon className='material-icons'>email</FontIcon>
+             </IconButton>
           </ToolbarGroup>
         </Toolbar>
-        <div id="main-content">
+        <div id='main-content'>
           <Drawer
             docked={false}
             containerStyle={{overflowX:'hidden'}}
