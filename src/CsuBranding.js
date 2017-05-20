@@ -17,8 +17,7 @@ export default class CsuSvgLogo extends Component {
       <div style={{marginTop: '-7px'}} className='signature'>
         <section id='BrandLogo' className='fontLarge'>
           <div className='responsiveLogoContainer'>
-            <div id='responsiveLogo' className='screenMD'>
-            </div>
+            <div id='responsiveLogo' className='screenMD'></div>
             <div id='responsiveLogoSubsytem'>
               <h2>
                 <a id='unit-title' className='display-none' href={config.unitUrl}>
