@@ -15,7 +15,7 @@ import {
   ToolbarGroup
 } from 'material-ui/Toolbar';
 
-import CsuSvgLogo from './CsuBranding';
+import CsuSvgLogo, {CsuFooter} from './CsuBranding';
 
 import config from './config.json';
 import sections from './sections.json';
@@ -126,6 +126,7 @@ class App extends Component {
           </Drawer>
           {this.props.children}
         </div>
+        <CsuFooter/>
       </div>
     );
   }
