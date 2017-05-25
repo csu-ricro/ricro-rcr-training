@@ -12,7 +12,7 @@ const SecContainer = (props) => {
   window.scrollTo(0, 0);
   const nextLinkOffset = props.sectionTrio.before == null ? 'col-md-offset-6 col-md-6' : 'col-md-6';
   const nextLink = props.sectionTrio.next == null ? null : (
-    <Link className={nextLinkOffset} to={config.appRoot+props.sectionTrio.next.link}>
+    <Link className={nextLinkOffset} to={config.app.root+props.sectionTrio.next.link}>
       <RaisedButton
         label={props.sectionTrio.next.title}
         labelPosition='before'
@@ -23,7 +23,7 @@ const SecContainer = (props) => {
     </Link>
   );
   const beforeLink = props.sectionTrio.before == null ? null : (
-    <Link className='col-md-6' to={config.appRoot+props.sectionTrio.before.link}>
+    <Link className='col-md-6' to={config.app.root+props.sectionTrio.before.link}>
       <FlatButton
         label={props.sectionTrio.before.title}
         labelPosition='after'

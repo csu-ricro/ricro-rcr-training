@@ -31,20 +31,20 @@ ReactDOM.render(
   <MuiThemeProvider muiTheme={getMuiTheme(config.muiTheme)}>
     <Router>
       <App>
-        <Route exact path={config.appRoot} component={SecIntro} />
-        <Route exact path={config.appRoot+'ethics-and-social-responsibility'} component={Sec1} />
-        <Route exact path={config.appRoot+'data-acquisition-and-management'} component={Sec2} />
-        <Route exact path={config.appRoot+'research-misconduct'} component={Sec3} />
-        <Route exact path={config.appRoot+'publication-practices-and-responsible-authorship'} component={Sec4} />
-        <Route exact path={config.appRoot+'collaborative-science'} component={Sec5} />
-        <Route exact path={config.appRoot+'animal-safety'} component={Sec6} />
-        <Route exact path={config.appRoot+'human-safety'} component={Sec7} />
-        <Route exact path={config.appRoot+'laboratory-safety'} component={Sec8} />
-        <Route exact path={config.appRoot+'conflict-of-interest'} component={Sec9} />
-        <Route exact path={config.appRoot+'mentor-and-trainee-responsibilities'} component={Sec10} />
-        <Route exact path={config.appRoot+'fiscal-responsibility'} component={Sec11} />
-        <Route exact path={config.appRoot+'conclusion'} component={SecConclusion} />
-        <Route exact path={config.appRoot+'review-and-resources'} component={SecReviewResources} />
+        <Route exact path={config.app.root} component={SecIntro} />
+        <Route exact path={config.app.root+'ethics-and-social-responsibility'} component={Sec1} />
+        <Route exact path={config.app.root+'data-acquisition-and-management'} component={Sec2} />
+        <Route exact path={config.app.root+'research-misconduct'} component={Sec3} />
+        <Route exact path={config.app.root+'publication-practices-and-responsible-authorship'} component={Sec4} />
+        <Route exact path={config.app.root+'collaborative-science'} component={Sec5} />
+        <Route exact path={config.app.root+'animal-safety'} component={Sec6} />
+        <Route exact path={config.app.root+'human-safety'} component={Sec7} />
+        <Route exact path={config.app.root+'laboratory-safety'} component={Sec8} />
+        <Route exact path={config.app.root+'conflict-of-interest'} component={Sec9} />
+        <Route exact path={config.app.root+'mentor-and-trainee-responsibilities'} component={Sec10} />
+        <Route exact path={config.app.root+'fiscal-responsibility'} component={Sec11} />
+        <Route exact path={config.app.root+'conclusion'} component={SecConclusion} />
+        <Route exact path={config.app.root+'review-and-resources'} component={SecReviewResources} />
       </App>
     </Router>
   </MuiThemeProvider>,

@@ -1,9 +1,13 @@
 {
-  "appRoot": "/rcr-training/",
-  "appName": "RCR Training",
-  "unitTitle": "RICRO",
-  "unitUrl": "https://vpr.colostate.edu/ricro/",
-  "unitContact": "https://vpr.colostate.edu/ricro/contact-us",
+  "app": {
+    "root": "/rcr-training/",
+    "name": "RCR Training"
+  },
+  "unit": {
+    "name": "RICRO",
+    "url": "https://vpr.colostate.edu/ricro/",
+    "contactHref": "https://vpr.colostate.edu/ricro/contact-us"
+  },
   "muiTheme": {
     "palette": {
       "primary1Color": "#1E4D2B",

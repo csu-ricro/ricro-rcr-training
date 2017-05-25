@@ -5,7 +5,7 @@ import config from './config.json';
 import sections from './sections.json';
 
 export const getSectionTrio = () => {
-  const pathnameArray = window.location.pathname.split(config.appRoot);
+  const pathnameArray = window.location.pathname.split(config.app.root);
   const index = sections.findIndex(section => section.link === pathnameArray[pathnameArray.length - 1]);
   return {
     before: index >= 0 ? sections[index - 1] : null,

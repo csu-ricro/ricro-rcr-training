@@ -139,9 +139,9 @@ export default class Sec extends Component {
               <div className='col-md-6'>
                 <h4>iThenticate: Similarity Report</h4>
                 <Divider />
-                <a href={config.appRoot+'images/iThenticate-SimilarityReport.png'}>
+                <a href={config.app.root+'images/iThenticate-SimilarityReport.png'}>
                   <img
-                    src={config.appRoot+'images/iThenticate-SimilarityReport.png'}
+                    src={config.app.root+'images/iThenticate-SimilarityReport.png'}
                     alt='iThenticate Similarity Report'
                     style={{maxWidth:'100%'}}/>
                 </a>
@@ -149,9 +149,9 @@ export default class Sec extends Component {
               <div className='col-md-6'>
                 <h4>iThenticate: Side-By-Side Comparison</h4>
                 <Divider />
-                <a href={config.appRoot+'images/iThenticate-SideBySide.png'}>
+                <a href={config.app.root+'images/iThenticate-SideBySide.png'}>
                   <img
-                    src={config.appRoot+'images/iThenticate-SideBySide.png'}
+                    src={config.app.root+'images/iThenticate-SideBySide.png'}
                     alt='iThenticate Side by Side Comparison'
                     style={{maxWidth:'100%'}}/>
                 </a>
