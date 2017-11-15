@@ -1,6 +1,6 @@
 {
   "app": {
-    "root": "/rcr-training/",
+    "root": "/rcr/training/",
     "name": "RCR Training"
   },
   "unit": {
