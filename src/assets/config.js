@@ -21,6 +21,7 @@ const rawConfig = {
     name: 'Responsible Conduct of Research Training',
     basename: pk.homepage,
     hasLogin: false,
+    LogRocket: { id: 'be8vlm/rcr-ricro-training' },
     nav: [
       [
         {
