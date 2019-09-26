@@ -1,8 +1,8 @@
 {
   "name": "ricro-rcr-training",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "dependencies": {
-    "colostate-ricro-ui": "^3.5.5",
+    "colostate-ricro-ui": "^3.5.8",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
@@ -10,7 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage",
+    "test:watch": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.js\"",
     "lint:fix": "eslint \"src/**/*.js\" --fix"
@@ -26,7 +27,7 @@
   ],
   "author": "RICRO",
   "description": "Training application for RCR",
-  "homepage": "/rcr/training/",
+  "homepage": "/apps/rcr/training/",
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-babel": "^5.3.0",

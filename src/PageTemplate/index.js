@@ -23,6 +23,7 @@ class PageTemplate extends React.Component {
   state = {};
 
   componentDidMount() {
+    // Fixes bug: user navigates to new page but scroll stays at the bottom
     window.scrollTo(0, 0);
   }
 
